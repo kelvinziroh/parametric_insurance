@@ -14,6 +14,7 @@ body {
   overflow: hidden;
 }
 
+/* header */
 header .container {
   display: flex;
   justify-content: space-between;
@@ -60,6 +61,7 @@ header .cta .btn {
   border-radius: 5px;
 }
 
+/* home page */
 .introduction {
   text-align: center;
   padding: 50px 20px;
@@ -221,6 +223,8 @@ header .cta .btn {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
+/* footer */
+
 footer {
   background: #0044cc;
   color: #fff;
@@ -254,4 +258,47 @@ footer .footer-links a {
 
 footer p {
   margin-top: 20px;
+}
+
+/* contact us page */
+.contact-form {
+  background: #fff;
+  padding: 50px 20px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #ffcc00;
+  color: #0044cc;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
 }
