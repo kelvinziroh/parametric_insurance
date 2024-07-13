@@ -6,10 +6,16 @@ body {
   color: #333;
 }
 
+
 .container {
   width: 80%;
   margin: auto;
   overflow: hidden;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
 }
 
 header {
@@ -42,7 +48,6 @@ header #branding {
 }
 
 header nav {
-  float: right;
   margin-top: 10px;
 }
 
@@ -88,7 +93,7 @@ header .cta .btn {
   margin-bottom: 20px;
 }
 
-.features ul {
+.features div {
   list-style: none;
   padding: 0;
 }
@@ -117,6 +122,11 @@ header .cta .btn {
   text-align: center;
 }
 
+.benefit-items {
+  display: flex;
+  justify-content: space-between;
+}
+
 .benefits p {
   font-size: 1.1em;
   margin-bottom: 20px;
@@ -125,6 +135,7 @@ header .cta .btn {
 
 .benefit-item {
   background: #fff;
+  width: 300px;
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 10px;
@@ -134,10 +145,12 @@ header .cta .btn {
 .benefit-item h3 {
   font-size: 1.5em;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .benefit-item p {
   font-size: 1em;
+  text-align: center;
 }
 
 .testimonial {
@@ -189,12 +202,15 @@ header .cta .btn {
   background: #ffcc00;
   color: #0044cc;
   font-weight: bold;
+  width: 25px;
+  height: 25px;
   padding: 10px;
   border-radius: 50%;
   position: absolute;
-  left: -40px;
+  left: -60px;
   top: 50%;
   transform: translateY(-50%);
+  text-align: center;
 }
 
 .how-it-works img {
