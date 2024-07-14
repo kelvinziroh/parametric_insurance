@@ -18,6 +18,7 @@ body {
 header .container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 header {
@@ -36,22 +37,25 @@ header a {
 }
 
 header ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   padding: 0;
   list-style: none;
 }
 
 header li {
-  display: inline;
-  padding: 0 20px 0 20px;
+  padding: 0 20px;
+  width: 110px;
 }
 
-header #branding {
+/* header #branding {
   float: left;
-}
+} */
 
-header nav {
+/* header nav {
   margin-top: 10px;
-}
+} */
 
 header .cta .btn {
   background: #ffcc00;
@@ -139,6 +143,7 @@ header .cta .btn {
 .benefit-items {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .benefits p {
