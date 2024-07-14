@@ -11,7 +11,7 @@ body {
 .container {
   width: 80%;
   margin: auto;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 /* header */
@@ -61,11 +61,22 @@ header .cta .btn {
   border-radius: 5px;
 }
 
+
+
 /* home page */
 .introduction {
   text-align: center;
   padding: 50px 20px;
   background: #f4f4f4;
+}
+
+.introduction .btn {
+  background: #ffcc00;
+  color: #0044cc;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
 .introduction h1 {
@@ -244,6 +255,18 @@ footer .contact-info, footer .social-media, footer .footer-links {
   margin: 10px;
 }
 
+footer .contact-info {
+  text-align: left;
+}
+
+footer .social-media {
+  padding-top: 10px;
+}
+
+footer .footer-links {
+  padding-top: 10px;
+}
+
 footer .social-media a {
   color: #ffcc00;
   text-decoration: none;
@@ -257,7 +280,7 @@ footer .footer-links a {
 }
 
 footer p {
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 /* contact us page */
